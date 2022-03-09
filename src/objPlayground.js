@@ -46,6 +46,4 @@ function arrayGenerator(type, object) {
   return Object[type](object);
 }
 
-console.log(arrayGenerator('entries', { sum: 3, mult: 2, div: 1, sub: 0 }));
-
 module.exports = { calculator, arrayGenerator };
